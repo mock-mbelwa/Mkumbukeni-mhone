@@ -1,0 +1,247 @@
+*body {
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background-color: #333;
+    text-align: right;
+    padding: 0.8rem;
+    background: rgb(55, 22, 222);
+    
+}
+
+.fixed-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.fixed-nav li {
+    display: inline-block;
+    margin-right: 4rem;
+}
+
+.fixed-nav li:last-child {
+    margin-right: 4rem;
+}
+
+.fixed-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+.fixed-nav a:hover {
+    color: #f00; /* Change the color for the hover effect */
+}
+
+.section {
+    height: 50vh;
+    padding: 0.1rem;
+    color: #000;
+    text-align: center;
+    border: 0.1rem solid #000;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+.home1,.info-tech{
+    margin-top: 20px;
+}
+.home1{
+    background-image: url("images/background.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 99vh;
+    
+    margin-bottom: 3rem;
+    
+    
+}
+.welcome{
+    font-size: 3rem;
+    text-align: center;
+    padding: 3rem;
+    color: #fff;
+
+}
+.hero_desc{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.about-me-title{
+    text-align: center;
+    
+
+}
+.section, .about-me-image,.about-me-details{
+    margin-bottom: 2rem;
+}
+.section, .about-me-image{
+    border-radius: 3rem;
+    margin-right: 2rem;
+    height: 70vh;
+}
+.about-me-details{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+
+.our-services{
+    text-align: center;
+    align-items: center;
+    
+}
+
+.servives1{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+
+ article{
+    
+    height: 20rem;
+    width: 20%;
+    flex: 1; /* Allow the articles to take equal space */
+    padding: 0.1rem;
+    margin-top:3.6rem ;  
+    margin-right:3.6rem ; 
+    margin-left: 0.2rem;
+  }
+  .services, h3{
+    text-align: center;
+    
+  }
+  .services, a{
+    text-decoration: none;
+    
+  }
+  .services,p{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .services:hover{
+    border: 1px solid green;
+    border-radius: 2rem;
+  }
+  potofolio1,h1{
+    text-align: center;
+    padding-top: 0.6rem;
+    padding-bottom: 1rem;
+  }
+  .poto-class{
+    height: 50vh;
+    
+    color: #000;
+    text-align: center;
+    padding-top: 0.3rem;
+    
+    padding-bottom: 2rem;
+  }
+  
+  .poto-class, img{
+    padding-top:2rem ;
+    padding-right: 1rem;
+    
+  }
+  .contact-section,.map-form{
+    display: flex;
+    flex-direction: row;
+  }
+  .contact-section article{
+    margin-right: 4rem;
+
+  }
+
+
+ 
+
+/* Style for the footer container */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the footer content */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style for each item in the footer */
+.footer-item {
+    margin: 10px;
+}
+
+/* Style for the email and phone number span elements */
+.footer-item span {
+    font-size: 14px;
+}
+
+/* Optional: Add some hover effect on the email and phone number */
+.footer-item span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+.poto-class> a>img{
+  
+  transition: transform 0.5s ease-in-out;
+}
+
+.poto-class>a>img:hover{
+    transform: scale(1.2); /* Increase the scale for a zoom-in effect */
+    border: 1px solid green;
+    margin:1rem;
+
+}
+
+
+#form{
+    width: 12rem;
+    height: 2rem;
+    margin: 0.3rem;
+    border-color: burlywood;
+
+}
+textarea{
+    width: 40rem;
+    height: 10rem;
+    border-color: burlywood;
+
+}
+
+button{
+    background: blue;
+    color: #fff;
+    width: 5rem;
+    height: auto;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.9rem;
+}
